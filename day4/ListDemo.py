@@ -64,3 +64,47 @@
 #clear()
 #mylist=["apple", "banana", "cherry"] #mylist.clear()
 # print(mylist) #[]
+
+#EXample 10: copy list
+#List()
+# mylist1=["apple", "banana", "cherry"]
+# mylist2=list(mylist1)
+# print(mylist1)
+# print(mylist2)
+
+#copy
+
+# mylist1=["apple", "banana", "cherry"]
+# mylist2=mylist1.copy()
+# print(mylist1)
+# print(mylist2)
+#EXample 11: combine/join list
+#Using + operator
+# list1=["a","b","c"]
+# list2=[1,2,3]
+# list3=list1+list2
+# print(list3)
+
+#using loop statement
+list1=["a","b","c"]
+list2=[1,2,3]
+for i in list2:
+    list1.append(i)
+    print(list1)
+
+
+#using extend()
+list1=["a","b","c"]
+list2=[1,2,3]
+list1.extend(list2)
+print(list1)
+
+
+
+
+
+
+
+
+
+
