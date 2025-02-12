@@ -83,3 +83,8 @@ if tuple1==tuple2:
 else:
    print("tuples are not eqaul")
 
+
+
+
+
+
