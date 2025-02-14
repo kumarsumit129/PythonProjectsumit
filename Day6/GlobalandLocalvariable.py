@@ -4,11 +4,11 @@
 #
 # def func():
 #
-local_var=10 # local variable
+#local_var=10 # local variable
 #
-print (local_var)
+#print (local_var)
 #
-print (global_var)
+#print (global_var)
 #
 # func()
 #
@@ -16,3 +16,10 @@ print (global_var)
 # print(global_var) # valid bcoz global_var is global variable
 
 #(Example2)
+xy=100 # global variable
+
+def cool():
+    xy=200 #global variable
+    print(xy)
+cool()
+
